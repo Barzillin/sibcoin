@@ -30,6 +30,31 @@ Development Process
 Building process
 -----------------
 
+Ubuntu 18.04 Lts (tested)
+Add:
+sudo apt-get install curl, sudo, snapd, git
+sudo apt-get install autoconf
+sudo apt install libc6-dev
+sudo apt-get install libtool
+sudo apt-get install pkg-config
+sudo apt-get install build-essential
+sudo apt-get install libqt4-dev libminiupnpc-dev
+sudo apt-get install libboost-all-dev -y
+sudo apt install libevent-dev
+
+sudo apt-add-repository universe
+sudo apt update
+sudo apt install python-minimal
+
+sudo apt update
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+sudo python2 get-pip.py
+
+sudo apt-get install python-twisted-web
+pip install zope.interface==3.8.0
+
+sudo apt-get install curl build-essential libtool autotools-dev automake pkg-config python3 bsdmainutils cmake
+
 **compiling Sibcoin from git**
 
 Use the autogen script to prepare the build environment.
